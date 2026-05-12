@@ -267,7 +267,21 @@ ${i}`),b(i)}function $e(n,e=!1){return Qo(Lo(n),An(),Pn(),e)}class Ko extends fe
   display: flex;
   flex-wrap: wrap;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="200,350" size="100,100"># Bem vindo(a) à Certificação de Educador Maker 2026!
+/* Define o fundo externo (atrás do "papel" da história) como preto */
+#backdrop {
+  background-color: black;
+}
+
+/* Define o fundo da área de texto como preto e remove bordas */
+#page {
+  background-color: black;
+  border: 0px;
+}
+
+/* Garante que todo o texto do artigo seja branco */
+#page article p {
+  color: white;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="200,350" size="100,100"># Bem vindo(a) à Certificação de Educador Maker 2026!
 
 A Equipe Thomas Maker está muito feliz de ter você nesta jornada!
 
@@ -559,9 +573,7 @@ Vamos lá?
 
 Tudo certo?
 
-[[Continuar-&gt;Encerramento]]</tw-passagedata><tw-passagedata pid="23" name="Tela de título" tags="" position="75,350" size="100,100">config.style.page.color: &quot;white on black&quot;
---
-[[{embed image: &#39;title_screen.jpeg&#39;}-&gt;Start]]</tw-passagedata><tw-passagedata pid="24" name="Encerramento" tags="" position="1575,350" size="100,100">{embed passage:&#39;Menu&#39;}
+[[Continuar-&gt;Encerramento]]</tw-passagedata><tw-passagedata pid="23" name="Tela de título" tags="" position="75,350" size="100,100">[[{embed image: &#39;title_screen.jpeg&#39;}-&gt;Start]]</tw-passagedata><tw-passagedata pid="24" name="Encerramento" tags="" position="1575,350" size="100,100">{embed passage:&#39;Menu&#39;}
 Obrigado por participar dessa aventura conosco! 
 
 Aqui está um caderno do NotebookLM com os itens da sua mochila.
