@@ -222,30 +222,11 @@ ${i}`),b(i)}function $e(n,e=!1){return Qo(Lo(n),An(),Pn(),e)}class Ko extends fe
   background-color: #333333; /* Fundo cinza escuro */
   font-family: monospace;     /* Fonte monoespaçada */
   font-weight: bold;          /* Texto em negrito */
-  padding: 10px;              /* Espaçamento interno para o texto */
+  padding: 10px; /* Espaçamento interno para o texto */
+  /* Propriedade para aumentar o espaçamento entre linhas */
+  line-height: 1.8;           /* Valor sugerido para um espaçamento bem legível */
   font-size: 35px; /* Tamanho maior para a citação */
   color: white;               /* Cor do texto (opcional, para melhor contraste) */
-}
-/* 1. Importação da fonte Montserrat */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
-/* 2. Configuração das cores de fundo (Global) */
-#backdrop {
-  background-color: #000000; /* Fundo externo [2] */
-}
-
-#page {
-  background-color: #000000; /* Fundo da área de conteúdo [2] */
-  border: 0;                 /* Remove bordas para visual infinito [3] */
-}
-
-/* 3. Formatação do texto principal */
-#page article p {
-  font-family: 'Montserrat', sans-serif; /* Fonte solicitada */
-  font-size: 20px;                       /* Tamanho solicitado [2] */
-  color: #ffffff;                        /* Cor branca para o texto [3] */
-  line-height: 1.6;                      /* Espaçamento para legibilidade [3] */
-  text-align: left;
 }
 
 /* 4. Transformação de links e forks em botões */
@@ -258,7 +239,6 @@ ${i}`),b(i)}function $e(n,e=!1){return Qo(Lo(n),An(),Pn(),e)}class Ko extends fe
   margin: 10px 5px 10px 0;    /* Espaçamento entre botões [4] */
   text-decoration: none;      /* Remove sublinhado padrão [5] */
   border-radius: 8px;         /* Cantos arredondados para visual moderno [6] */
-  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   transition: background-color 0.2s;
   border: 1px solid #444444;  /* Borda sutil para definição */
@@ -287,7 +267,7 @@ ${i}`),b(i)}function $e(n,e=!1){return Qo(Lo(n),An(),Pn(),e)}class Ko extends fe
   display: flex;
   flex-wrap: wrap;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="325,350" size="100,100">Bem vindo(a) à Certificação de Educador Maker 2026!
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="200,350" size="100,100"># Bem vindo(a) à Certificação de Educador Maker 2026!
 
 A Equipe Thomas Maker está muito feliz de ter você nesta jornada!
 
@@ -296,24 +276,23 @@ Nesta certificação, vamos compartilhar e crescer juntos como educadores para r
 Primeiramente, gostaríamos de saber seu nome:
 {text input for: &#39;nome&#39;}
 
-[[Clique para continuar-&gt;Introdução]]
-</tw-passagedata><tw-passagedata pid="2" name="Introdução" tags="" position="450,350" size="100,100">Olá {nome}! Aqui vão algumas dicas antes de começarmos:
+&lt;a&gt;[[Continuar-&gt;Introdução]]&lt;/a&gt;
+</tw-passagedata><tw-passagedata pid="2" name="Introdução" tags="" position="325,350" size="100,100">Olá {nome}! Aqui vão algumas dicas antes de começarmos:
 
 1. Lembre-se de ter sempre um bloco de anotações com você para guardar os conceitos que você achar interessante.
 
 2. Esta é uma aventura onde você vai escolher diferentes caminhos. Isto vai definir melhor que tipo de projeto você irá propor e quais ferramentas você utilizará.
 
-3. Durante nossa jornada você receberá vários itens que serão importantíssimos para seu crescimento nesta certificação. Aqui vai o primeiro:
+3. Durante nossa jornada você receberá vários itens que serão importantíssimos para seu crescimento nesta certificação. 
 
-
-[[Clique aqui para coletar o seu primeiro item!-&gt;Adicionar Empoderamento Maker]]
+&lt;a&gt;[[Continuar-&gt;Empoderamento Maker]]&lt;/a&gt;
 
 </tw-passagedata><tw-passagedata pid="3" name="Adicionar Empoderamento Maker" tags="" position="575,350" size="100,100">empoderamentoMaker:[&#39;Empoderamento Maker&#39;,&#39;https://thomasmaker.org.br/novidades/News1251content5698.shtml&#39;]
 itens: [empoderamentoMaker]
 --
 {embed passage:&#39;Menu&#39;}
 
-🎒 Novo item na mochila! 🎒
+## 🎒 Novo item na mochila! 🎒
 
 Você adquiriu o artigo &#39;Empoderamento Maker: Um Conceito em Construção&#39;! 
 
@@ -323,11 +302,9 @@ Este artigo descreve a base teórica desta certificação. Tire um tempo para le
 
 ~~Dica: É possível verificar o que você coletou até agora acessando sua mochila virtual no menu!~~
 
-[[Clique para continuar-&gt;Inicio do ciclo]]</tw-passagedata><tw-passagedata pid="4" name="Menu" tags="" position="825,225" size="100,100">[align right]
-~~Menu~~
-
-~~[[🎒 Mochila-&gt;Mochila]]~~
-[continue]</tw-passagedata><tw-passagedata pid="5" name="Mochila" tags="" position="950,225" size="100,100">~~🎒 Mochila 🎒~~
+&lt;a&gt;[[Continuar-&gt;Inicio do ciclo]]&lt;/a&gt;</tw-passagedata><tw-passagedata pid="4" name="Menu" tags="" position="825,225" size="100,100">[align right]
+&lt;a&gt;~~[[🎒 Mochila-&gt;Mochila]]~~&lt;/a&gt;
+[continue]</tw-passagedata><tw-passagedata pid="5" name="Mochila" tags="" position="950,225" size="100,100"># 🎒 Mochila 🎒
 
 [Javascript]
 for (i=0; i&lt;itens.length;i++) {
@@ -335,14 +312,13 @@ for (i=0; i&lt;itens.length;i++) {
 }
 [Continue]
 
-{back link, label:&#39;Voltar&#39;}</tw-passagedata><tw-passagedata pid="6" name="Inicio do ciclo" tags="" position="700,350" size="100,100">{embed passage:&#39;Menu&#39;}
-Ok! Agora podemos começar!
+&lt;a&gt;{back link, label:&#39;Voltar&#39;}&lt;/a&gt;</tw-passagedata><tw-passagedata pid="6" name="Inicio do ciclo" tags="" position="700,350" size="100,100">{embed passage:&#39;Menu&#39;}
 
 {nome}, é importante entendermos quais são seus interesses e quais tipo de iniciativa você desenvolve na sua prática. 
 
 Como você viu no primeiro artigo em sua [[Mochila]], o Empoderamento Maker também consiste na &#39;inclinação e desejo de &quot;mexer com” e alterar os objetos e os sistemas ao seu redor&quot;&#39;. Com isto em mente, um Educador Maker Certificado deve desenvolver um projeto transformador para sua realidade. 
 
-[[Clique para continuar -&gt; Ciclo parte 2]]</tw-passagedata><tw-passagedata pid="7" name="Escopo" tags="" position="950,350" size="100,100">{embed passage:&#39;Menu&#39;}
+&lt;a&gt;[[Continue -&gt; Ciclo parte 2]]&lt;/a&gt;</tw-passagedata><tw-passagedata pid="7" name="Escopo" tags="" position="950,350" size="100,100">{embed passage:&#39;Menu&#39;}
 Muito bem! Será incrível colaborar com você para poder transformar {escopo}!
 
 Um passo importante nesta jornada é começar a olhar para {escopo} a partir de uma nova perspectiva.
@@ -359,7 +335,7 @@ Começaremos a entender estas capacidades na prática!
 
 Pegue seu bloco de anotações que começaremos uma exploração!
 
-[[Conhecer as Capacidades Maker-&gt;Capacidades Maker]]</tw-passagedata><tw-passagedata pid="8" name="Capacidades Maker" tags="" position="1075,350" size="100,100">olhar_de_perto:false
+&lt;a&gt;[[Conhecer as Capacidades Maker-&gt;Capacidades Maker]]&lt;/a&gt;</tw-passagedata><tw-passagedata pid="8" name="Capacidades Maker" tags="" position="1075,350" size="100,100">olhar_de_perto:false
 explorar_a_complexidade:false
 achar_oportunidades:false
 rotinas_de_pensamento:false
@@ -377,7 +353,7 @@ Como você viu, as Capacidades Maker são divididas em três indicadores, ou _&q
 
 Estes indicadores nos ajudam a planejar e a avaliar nossas atividades onde usamos o Aprendizado Centrado no Fazer _(Maker-Centered Learning)_.
 
-[[Clique para continuar-&gt;Capacidades Parte 2]]
+&lt;a&gt;[[Clique para continuar-&gt;Capacidades Parte 2]]&lt;/a&gt;
 
 
 
@@ -467,7 +443,7 @@ itens:[...itens, rotina_achar_oportunidades]
 
 {embed passage:&#39;Menu&#39;}
 
-🎒 Novo item na mochila! 🎒
+## 🎒 Novo item na mochila! 🎒
 
 Você adquiriu a rotina de pensamento &quot;&quot;.
 
@@ -475,13 +451,13 @@ Você adquiriu a rotina de pensamento &quot;&quot;.
 
 ~~Dica: É possível verificar o que você coletou até agora acessando sua mochila virtual no menu!~~
 
-[[Clique para retornar às Capacidades Maker-&gt;Capacidades Parte 2]]</tw-passagedata><tw-passagedata pid="14" name=" Adicionar Rotina &quot;Olhar de Perto&quot;" tags="" position="950,600" size="100,100">rotina_olhar_de_perto:&quot;https://google.com&quot;
+&lt;a&gt;[[Clique para retornar às Capacidades Maker-&gt;Capacidades Parte 2]]&lt;/a&gt;</tw-passagedata><tw-passagedata pid="14" name=" Adicionar Rotina &quot;Olhar de Perto&quot;" tags="" position="950,600" size="100,100">rotina_olhar_de_perto:&quot;https://google.com&quot;
 itens:[...itens, rotina_olhar_de_perto]
 --
 
 {embed passage:&#39;Menu&#39;}
 
-🎒 Novo item na mochila! 🎒
+## 🎒 Novo item na mochila! 🎒
 
 Você adquiriu a rotina de pensamento &quot;&quot;.
 
@@ -489,11 +465,11 @@ Você adquiriu a rotina de pensamento &quot;&quot;.
 
 ~~Dica: É possível verificar o que você coletou até agora acessando sua mochila virtual no menu!~~
 
-[[Clique para retornar às Capacidades Maker-&gt;Capacidades Parte 2]]</tw-passagedata><tw-passagedata pid="15" name=" Adicionar Rotina &quot;Explorar a Complexidade&quot;" tags="" position="1075,600" size="100,100">artigo_explorar_a_complexidade:&quot;https://google.com&quot;
+&lt;a&gt;[[Clique para retornar às Capacidades Maker-&gt;Capacidades Parte 2]]&lt;/a&gt;</tw-passagedata><tw-passagedata pid="15" name=" Adicionar Rotina &quot;Explorar a Complexidade&quot;" tags="" position="1075,600" size="100,100">artigo_explorar_a_complexidade:&quot;https://google.com&quot;
 itens:[...itens, artigo_explorar_a_complexidade]
 --
 {embed passage:&#39;Menu&#39;}
-🎒 Novo item na mochila! 🎒
+## 🎒 Novo item na mochila! 🎒
 
 Você adquiriu a rotina de pensamento &quot;&quot;.
 
@@ -501,8 +477,8 @@ Você adquiriu a rotina de pensamento &quot;&quot;.
 
 ~~Dica: É possível verificar o que você coletou até agora acessando sua mochila virtual no menu!~~
 
-[[Clique para retornar às Capacidades Maker-&gt;Capacidades Parte 2]]</tw-passagedata><tw-passagedata pid="16" name=" Adicionar item &quot;Rotinas de Pensamento&quot;" tags="" position="1200,725" size="100,100">
-🎒 Novo item na mochila! 🎒
+&lt;a&gt;[[Clique para retornar às Capacidades Maker-&gt;Capacidades Parte 2]]&lt;/a&gt;</tw-passagedata><tw-passagedata pid="16" name=" Adicionar item &quot;Rotinas de Pensamento&quot;" tags="" position="1200,725" size="100,100">
+## 🎒 Novo item na mochila! 🎒
 
 Você adquiriu o artigo &quot;As Rotinas de Pensamento e o MCL&quot;.
 
@@ -519,7 +495,9 @@ Pensando nisso, que tipo de transformação você gostaria de fazer com seu proj
 
 {embed passage:&#39;Frase&#39;}
 
-Quando estiver satisfeito com a frase acima, [[clique aqui para Continuar-&gt;Escopo]]</tw-passagedata><tw-passagedata pid="18" name="Capacidades Parte 2" tags="" position="1200,350" size="100,100">{embed passage:&#39;Menu&#39;}
+Quando estiver satisfeito com a frase acima, clique abaixo para continuar.
+
+&lt;a&gt;[[Continuar-&gt;Escopo]]&lt;/a&gt;</tw-passagedata><tw-passagedata pid="18" name="Capacidades Parte 2" tags="" position="1200,350" size="100,100">{embed passage:&#39;Menu&#39;}
 [if !olhar_de_perto || !explorar_a_complexidade || !achar_oportunidades]
 Agora, você pode seguir em frente para continuar sua aventura, ou pode aproveitar seu tempo para mergulhar mais fundo em cada uma das capacidades. 
 
@@ -556,11 +534,11 @@ Pronto?
 {reveal link: &#39;Clique aqui para abrir sua mochila&#39;, passage:&#39;Mochila 2&quot;&#39;}
 
 [[Quando terminar, clique aqui para continar-&gt;Delimitar objetivo]]</tw-passagedata><tw-passagedata pid="20" name="Frase" tags="" position="825,475" size="100,100">&lt;blockquote&gt;Seu projeto irá transformar {cycling link for: &#39;escopo&#39;, choices: [&#39;sua escola&#39;, &#39;seu bairro&#39;, &#39;seus alunos&#39;, &#39;sua prática pedagógica&#39;, &#39;sua sala de aula&#39;, &#39;sua vida&#39;]}.&lt;/blockquote&gt;
-</tw-passagedata><tw-passagedata pid="21" name="Mochila 2" tags="" position="1325,225" size="100,100">~~🎒 Mochila 🎒~~
+</tw-passagedata><tw-passagedata pid="21" name="Mochila 2" tags="" position="1325,225" size="100,100"># 🎒 Mochila 🎒
 
 [Javascript]
 for (i=0; i&lt;itens.length;i++) {
-	write(&quot;&lt;a href=\&quot;&quot;+itens[i][1]+&quot;\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener\&quot;&gt;&quot;+&quot;📃&quot;+itens[i][0]+&quot;&lt;a&gt;&lt;br&gt;&quot;);
+	write(&quot;&lt;a href=\&quot;&quot;+itens[i][1]+&quot;\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener\&quot;&gt;&quot;+&quot;📃&quot;+itens[i][0]+&quot;&lt;/a&gt;&lt;br&gt;&quot;);
 }
 [Continue]</tw-passagedata><tw-passagedata pid="22" name="Delimitar objetivo" tags="" position="1450,350" size="100,100">Ótimo! 
 
@@ -575,8 +553,20 @@ Além disso, reflita quais capacidades maker você gostaria de usar como guia pa
 
 Vamos lá?
 
-1. Acesse o Mapa da Jornada no Google Classroom
+1. Acesse o Mapa da Jornada no Google Classroom.
 2. No slide número 4, escreva um objetivo de seu projeto. 
 3. Logo abaixo, escreva uma ou mais capacidades maker que você irá explorar durante este projeto. 
 
-Parei aqui :)</tw-passagedata><tw-passagedata pid="23" name="Tela de título" tags="" position="200,350" size="100,100">[[{embed image: &#39;title_screen.jpeg&#39;}-&gt;Start]]</tw-passagedata></tw-storydata></html>
+Tudo certo?
+
+[[Continuar-&gt;Encerramento]]</tw-passagedata><tw-passagedata pid="23" name="Tela de título" tags="" position="75,350" size="100,100">[[{embed image: &#39;title_screen.jpeg&#39;}-&gt;Start]]</tw-passagedata><tw-passagedata pid="24" name="Encerramento" tags="" position="1575,350" size="100,100"></tw-passagedata><tw-passagedata pid="25" name="Empoderamento Maker" tags="" position="450,350" size="100,100">Vamos começar com o conceito mais importante da Certificação: O Empoderamento Maker.
+
+O _Agency by Design_ é uma iniciativa de pesquisa do _Project Zero_, grupo de estudos do _Harvard Institute of Education_. Eles definem o Empoderamento Maker como:
+
+&lt;blockquote&gt;Uma sensibilidade aguçada para o “design” por trás de objetos e sistemas, juntamente com a inclinação e desejo de “mexer com” e alterar os objetos e os sistemas ao seu redor, aliada a uma crescente capacidade de fazê-lo.&lt;/blockquote&gt;
+
+{embed image: &#39;empoderamento_maker.png&#39;}
+
+Nós temos um material de leitura muito interessante para você mergulhar neste conceito! 
+
+&lt;a&gt;[[Clique para coletar o seu primeiro item!-&gt;Adicionar Empoderamento Maker]]&lt;/a&gt;</tw-passagedata></tw-storydata></html>
